@@ -1,0 +1,14 @@
+{
+  "name": "proyectolenguaje",
+  "version": "1.0.0",
+  "description": "GUI para analizador Flex",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "JeanPaul",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
