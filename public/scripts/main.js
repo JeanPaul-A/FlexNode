@@ -1,10 +1,9 @@
 document.addEventListener('DOMContentLoaded', function () {
+    const txtParams = document.getElementById('txtParams');
     const txtInput = document.getElementById('txtInput');
     const btnSubmit = document.getElementById('btnSubmit');
     const btnReset = document.getElementById('btnReset');
     const txtOutput = document.getElementById('txtOutput');
-
-    const txtParams = document.getElementById('txtParams');
 
     const btnCirculo = document.getElementById('btnCirculo');
     const btnCuadrado = document.getElementById('btnCuadrado');
@@ -38,11 +37,20 @@ document.addEventListener('DOMContentLoaded', function () {
         txtOutput.value = "";
     })
 
-    //FLex
+    btnReset.addEventListener('click', function () {
+        txtInput.value = "";
+        txtParams.textContent = "Parámetros";
+        txtOutput.value = "";
+        btnCirculo.checked = false;
+        btnCuadrado.checked = false;
+        btnRectangulo.checked = false;
+        btnTriangulo.checked = false;
+        btnTrapecio.checked = false;
+    })
+
     btnSubmit.addEventListener('click', function () {
         const texto = txtInput.value;
 
-        //Envía el texto al servidor
         fetch('/analizar', {
             method: 'POST',
             headers: {
@@ -58,14 +66,4 @@ document.addEventListener('DOMContentLoaded', function () {
                 console.error('Error:', error);
             });
     });
-
-    btnReset.addEventListener('click', function () {
-        txtInput.value = "";
-        txtParams.textContent = "Parámetros";
-        btnCirculo.checked = false;
-        btnCuadrado.checked = false;
-        btnRectangulo.checked = false;
-        btnTriangulo.checked = false;
-        btnTrapecio.checked = false;
-    })
 });

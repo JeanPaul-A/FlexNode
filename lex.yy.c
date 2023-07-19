@@ -466,9 +466,9 @@ static char *yy_last_accepting_cpos;
 #define YY_MORE_ADJ 0
 #define YY_RESTORE_YY_MORE_OFFSET
 char *yytext;
-#line 1 "C:\\Users\\JeanPaul\\Documents\\ProyectoLenguaje\\lex\\project.l"
+#line 1 "F:\\Proyectos\\ProyectoLenguaje\\lex\\project.l"
 #define INITIAL 0
-#line 4 "C:\\Users\\JeanPaul\\Documents\\ProyectoLenguaje\\lex\\project.l"
+#line 4 "F:\\Proyectos\\ProyectoLenguaje\\lex\\project.l"
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -679,10 +679,9 @@ YY_DECL
 	register char *yy_cp, *yy_bp;
 	register int yy_act;
 
-#line 65 "C:\\Users\\JeanPaul\\Documents\\ProyectoLenguaje\\lex\\project.l"
+#line 65 "F:\\Proyectos\\ProyectoLenguaje\\lex\\project.l"
 
-    /*^("Circulo"|"Cuadrado"|"Rectangulo"|"Triangulo"|"Trapecio")"(".*")" { printf("Solo son válidos parámetros numéricos"); }*/
-#line 686 "lex.yy.c"
+#line 685 "lex.yy.c"
 
 	if ( yy_init )
 		{
@@ -767,115 +766,115 @@ do_action:	/* This label is used only to access EOF actions. */
 
 case 1:
 YY_RULE_SETUP
-#line 67 "C:\\Users\\JeanPaul\\Documents\\ProyectoLenguaje\\lex\\project.l"
+#line 66 "F:\\Proyectos\\ProyectoLenguaje\\lex\\project.l"
 { printf("Solo son válidos parámetros numéricos"); }
 	YY_BREAK
 case 2:
 YY_RULE_SETUP
-#line 69 "C:\\Users\\JeanPaul\\Documents\\ProyectoLenguaje\\lex\\project.l"
+#line 68 "F:\\Proyectos\\ProyectoLenguaje\\lex\\project.l"
 { printf("Es necesario el radio\n"); }
 	YY_BREAK
 case 3:
 YY_RULE_SETUP
-#line 70 "C:\\Users\\JeanPaul\\Documents\\ProyectoLenguaje\\lex\\project.l"
+#line 69 "F:\\Proyectos\\ProyectoLenguaje\\lex\\project.l"
 { ExtraerNumeros(yytext + 8, 1); }
 	YY_BREAK
 case 4:
 YY_RULE_SETUP
-#line 71 "C:\\Users\\JeanPaul\\Documents\\ProyectoLenguaje\\lex\\project.l"
+#line 70 "F:\\Proyectos\\ProyectoLenguaje\\lex\\project.l"
 { printf("Parámetros innecesarios"); }
 	YY_BREAK
 case 5:
 YY_RULE_SETUP
-#line 73 "C:\\Users\\JeanPaul\\Documents\\ProyectoLenguaje\\lex\\project.l"
+#line 72 "F:\\Proyectos\\ProyectoLenguaje\\lex\\project.l"
 { printf("Es necesario el lado\n"); }
 	YY_BREAK
 case 6:
 YY_RULE_SETUP
-#line 74 "C:\\Users\\JeanPaul\\Documents\\ProyectoLenguaje\\lex\\project.l"
+#line 73 "F:\\Proyectos\\ProyectoLenguaje\\lex\\project.l"
 { ExtraerNumeros(yytext + 9, 2); }
 	YY_BREAK
 case 7:
 YY_RULE_SETUP
-#line 75 "C:\\Users\\JeanPaul\\Documents\\ProyectoLenguaje\\lex\\project.l"
+#line 74 "F:\\Proyectos\\ProyectoLenguaje\\lex\\project.l"
 { printf("Parámetros innecesarios"); }
 	YY_BREAK
 case 8:
 YY_RULE_SETUP
-#line 77 "C:\\Users\\JeanPaul\\Documents\\ProyectoLenguaje\\lex\\project.l"
+#line 76 "F:\\Proyectos\\ProyectoLenguaje\\lex\\project.l"
 { printf("Son necesarios la base y altura"); }
 	YY_BREAK
 case 9:
 YY_RULE_SETUP
-#line 78 "C:\\Users\\JeanPaul\\Documents\\ProyectoLenguaje\\lex\\project.l"
+#line 77 "F:\\Proyectos\\ProyectoLenguaje\\lex\\project.l"
 { printf("Hace falta un parámetro"); }
 	YY_BREAK
 case 10:
 YY_RULE_SETUP
-#line 79 "C:\\Users\\JeanPaul\\Documents\\ProyectoLenguaje\\lex\\project.l"
+#line 78 "F:\\Proyectos\\ProyectoLenguaje\\lex\\project.l"
 { ExtraerNumeros(yytext + 11, 3); }
 	YY_BREAK
 case 11:
 YY_RULE_SETUP
-#line 80 "C:\\Users\\JeanPaul\\Documents\\ProyectoLenguaje\\lex\\project.l"
+#line 79 "F:\\Proyectos\\ProyectoLenguaje\\lex\\project.l"
 { printf("Parámetros innecesarios"); }
 	YY_BREAK
 case 12:
 YY_RULE_SETUP
-#line 82 "C:\\Users\\JeanPaul\\Documents\\ProyectoLenguaje\\lex\\project.l"
+#line 81 "F:\\Proyectos\\ProyectoLenguaje\\lex\\project.l"
 { printf("Son necesarios la base y altura"); }
 	YY_BREAK
 case 13:
 YY_RULE_SETUP
-#line 83 "C:\\Users\\JeanPaul\\Documents\\ProyectoLenguaje\\lex\\project.l"
+#line 82 "F:\\Proyectos\\ProyectoLenguaje\\lex\\project.l"
 { printf("Hace falta un parámetro"); }
 	YY_BREAK
 case 14:
 YY_RULE_SETUP
-#line 84 "C:\\Users\\JeanPaul\\Documents\\ProyectoLenguaje\\lex\\project.l"
+#line 83 "F:\\Proyectos\\ProyectoLenguaje\\lex\\project.l"
 { ExtraerNumeros(yytext + 10, 4); }
 	YY_BREAK
 case 15:
 YY_RULE_SETUP
-#line 85 "C:\\Users\\JeanPaul\\Documents\\ProyectoLenguaje\\lex\\project.l"
+#line 84 "F:\\Proyectos\\ProyectoLenguaje\\lex\\project.l"
 { printf("Parámetros innecesarios"); }
 	YY_BREAK
 case 16:
 YY_RULE_SETUP
-#line 87 "C:\\Users\\JeanPaul\\Documents\\ProyectoLenguaje\\lex\\project.l"
+#line 86 "F:\\Proyectos\\ProyectoLenguaje\\lex\\project.l"
 { printf("Son necesarios la base mayor, base menor y altura"); }
 	YY_BREAK
 case 17:
 YY_RULE_SETUP
-#line 88 "C:\\Users\\JeanPaul\\Documents\\ProyectoLenguaje\\lex\\project.l"
+#line 87 "F:\\Proyectos\\ProyectoLenguaje\\lex\\project.l"
 { printf("Hacen falta dos parámetros"); }
 	YY_BREAK
 case 18:
 YY_RULE_SETUP
-#line 89 "C:\\Users\\JeanPaul\\Documents\\ProyectoLenguaje\\lex\\project.l"
+#line 88 "F:\\Proyectos\\ProyectoLenguaje\\lex\\project.l"
 { printf("Hace falta un parámetro"); }
 	YY_BREAK
 case 19:
 YY_RULE_SETUP
-#line 90 "C:\\Users\\JeanPaul\\Documents\\ProyectoLenguaje\\lex\\project.l"
+#line 89 "F:\\Proyectos\\ProyectoLenguaje\\lex\\project.l"
 { ExtraerNumeros(yytext + 9, 5); }
 	YY_BREAK
 case 20:
 YY_RULE_SETUP
-#line 91 "C:\\Users\\JeanPaul\\Documents\\ProyectoLenguaje\\lex\\project.l"
+#line 90 "F:\\Proyectos\\ProyectoLenguaje\\lex\\project.l"
 { printf("Parámetros innecesarios"); }
 	YY_BREAK
 case 21:
 YY_RULE_SETUP
-#line 93 "C:\\Users\\JeanPaul\\Documents\\ProyectoLenguaje\\lex\\project.l"
+#line 92 "F:\\Proyectos\\ProyectoLenguaje\\lex\\project.l"
 { printf("Digite respetando la estructura"); }
 	YY_BREAK
 case 22:
 YY_RULE_SETUP
-#line 94 "C:\\Users\\JeanPaul\\Documents\\ProyectoLenguaje\\lex\\project.l"
+#line 93 "F:\\Proyectos\\ProyectoLenguaje\\lex\\project.l"
 ECHO;
 	YY_BREAK
-#line 879 "lex.yy.c"
+#line 878 "lex.yy.c"
 case YY_STATE_EOF(INITIAL):
 	yyterminate();
 
@@ -1761,7 +1760,7 @@ int main()
 	return 0;
 	}
 #endif
-#line 94 "C:\\Users\\JeanPaul\\Documents\\ProyectoLenguaje\\lex\\project.l"
+#line 93 "F:\\Proyectos\\ProyectoLenguaje\\lex\\project.l"
 
 
 int main(){
